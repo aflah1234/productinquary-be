@@ -9,7 +9,7 @@ const app=express()
 
 app.use(express.json())
 app.use(cors({
-    origin: "https://boisterous-chaja-a18ee4.netlify.app",
+    origin: "https://product-inquiry-zt7j.vercel.app",
     credentials: true,
     methods: ["GET", "HEAD","OPTIONS","POST","DELETE","PUT","PATCH"],
     allowedHeaders: ["Content-Type","Authorization"]
